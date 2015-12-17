@@ -1,0 +1,131 @@
+<div class="container" ng-controller="PropertiesController">
+        <h3 class="text-left text-primary">Registro de Nueva Propiedad
+            <small class="pull-right">
+                <a class="btn btn-warning text-right" href="#/propiedades"><i class="fa fa-reply hover-effect"></i>Regresar</a>
+            </small>
+        </h3>
+    <hr>
+    <form role="form">     
+          <div class="container">
+              <h4>Favor de llenar todos los campos correpondientes</h4>
+            <div class="form-group">
+                <label for="tipo" class="control-label">Tipo de inmueble:</label>
+                <select class="form-control" id="tipo" placeholder="Selecciona tu tipo de propiedad">
+                  <option>Casa</option>
+                  <option>Departamento</option>
+                  <option>Oficina</option>
+                  <option>Terreno</option>
+                </select>
+            </div>
+              
+              <div class="form-group">
+                <label for="desarollo" class="control-label">Pertenece al desarollo:</label>
+                <input type="text" class="form-control" id="desarollo" placeholder="Desarollo">
+              </div>
+                
+              <div class="form-group">
+                <label for="introduccion" class="control-label">Introduccion:</label>
+                <input type="text" class="form-control" id="introduccion" placeholder="Introduccion">
+              </div>
+              
+         
+        <!-- This part contains general information -->
+            <p class="bg-primary">Informacion General</p>
+          <div class="form-group">
+             <span>Elija un tipo de operacion.</span>
+             <div class="radio">
+              <label>
+                <input type="radio" name="sale" id="sale" value="sale" checked>
+                Venta
+              </label>
+             </div>
+            </div>
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="rent" id="rent" value="rent">
+                    Renta
+                  </label>
+                </div>
+              </div>
+             <div class="form-group">
+                <label for="propertyName" class="control-label">Nombre del Inmueble:</label>
+                <input type="text" class="form-control" id="propertyName" placeholder="Nombre del inmueble">
+            </div>
+            <div class="form-group">
+              <label for="precio" class="control-label">Precio:</label>
+                  <input type="number" class="form-control" id="price" placeholder="Precio">
+            </div>
+            <div class="form-group">
+              <label for="vendedor" class="control-label">Vendedor:</label>
+                <select class="form-control" id="vendedor">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+            </div>
+
+          
+        <!---->
+            <p class="bg-primary">Informacion Especifica</p>
+            <div class="form-group">
+              <label for="terreno" class="control-label">Area del Terreno:</label>
+                <input type="number" class="form-control" id="terreno" placeholder="nombre del inmueble">
+              </div>
+              <div class="form-group">
+                  <select class="form-control" id="vendedor">
+                      <option>M2</option>
+                      <option>kl</option>
+                  </select>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-4">
+                  <label for="nombre" class="control-label"># Recamaras</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="nombre del inmueble">
+                </div>
+                <div class="col-xs-4">
+                    <label for="nombre" class="control-label"># Baños</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="nombre del inmueble">
+                </div>
+                <div class="col-xs-4">
+                 <label for="nombre" class="control-label"># Medios baños</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="nombre del inmueble">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="terreno" class="control-label">Amueblado</label>
+                <select class="form-control" id="vendedor">
+                  <option>M2</option>
+                  <option>kl</option>
+                </select>
+            </div>
+
+        <div class="container" style="border: 1px solid;"> 
+          <div class="form-group ">
+            
+          </div>
+        </div>
+
+        <div class="container" style="border: 1px solid;"> 
+          <div class="form-group ">
+            
+          </div>
+        </div>
+
+        <div class="container" style="border: 1px solid;"> 
+          <div class="form-group ">
+            
+          </div>
+        </div>
+          
+        <div class="container"> 
+          <div class="form-group ">
+            
+            <button type="submit" class="btn btn-default">Entrar</button>
+          </div>
+        </div>    
+         
+      </form>
+</div>
